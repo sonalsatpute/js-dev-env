@@ -4,7 +4,8 @@
   "description": "Larning JavaScript development environment",
   "scripts": {
     "prestart": "node buildScripts/startMessage.js",
-    "start": "node buildScripts/srcServer.js",
+    "start": "npm-run-all --parallel sercuity-check open:src",
+    "open:src": "node buildScripts/srcServer.js",
     "security-check" : "nsp check",
     "share": "Lt --port 3000"
   },

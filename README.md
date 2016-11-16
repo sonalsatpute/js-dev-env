@@ -38,5 +38,5 @@ Open command prompt and type
 Security Check
 - $npm run security-check
 
-* localtunnel command
+localtunnel command
 - $npm run share

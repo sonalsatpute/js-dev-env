@@ -5,7 +5,8 @@
   "scripts": {
     "prestart": "node buildScripts/startMessage.js",
     "start": "node buildScripts/srcServer.js",
-    "security-check" : "nps check"
+    "security-check" : "nsp check",
+    "share": "Lt --port 3000"
   },
   "author": "Sonal Satpute",
   "license": "MIT",

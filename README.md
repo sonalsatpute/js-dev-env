@@ -23,7 +23,7 @@ localtunnel, ngrok, surge, nov
 - $node buildScript\srcServer.js
 
 open new command prompt and start localtunnel
-- $it --port 3000 //todo: fix the issue 
+- $Lt --port 3000 
 
 ##Automation
 tools: Grunt, Gulp, nmp scripts
@@ -37,3 +37,6 @@ Open command prompt and type
 
 Security Check
 - $npm run security-check
+
+* localtunnel command
+- $npm run share

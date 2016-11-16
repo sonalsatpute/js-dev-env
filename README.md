@@ -2,8 +2,8 @@
 
 package mangers: npm, bower, jspm, Jam, Volo
 
-install node.js 
-add package.json
+install node.js (6.9.1) 
+add package.json 
 install packages
 - $npm install
 
@@ -16,3 +16,15 @@ http-server, live-server, Express, Dudo, webpack dev server, Browsersync,
 
 -Express
  
+##Sharing your work in progress
+localtunnel, ngrok, surge, nov
+
+$npm install -g localtunnel
+$node buildScript\srcServer.js
+
+
+open new command prompt and start localtunnel
+$it --port 3000 //todo: fix the issue (curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
+sudo apt-get install -y nodejs)
+
+##Automation

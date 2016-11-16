@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Larning JavaScript development environment",
   "scripts": {
+    "prestart": "node buildScripts/startMessage.js",
     "start": "node buildScripts/srcServer.js"
   },
   "author": "Sonal Satpute",

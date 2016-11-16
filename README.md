@@ -14,17 +14,17 @@ Security Check
 Development Web Servers
 http-server, live-server, Express, Dudo, webpack dev server, Browsersync, 
 
--Express
- 
+##Start Express
+- $node buildScript\srcServer.js
 ##Sharing your work in progress
 localtunnel, ngrok, surge, nov
 
-$npm install -g localtunnel
-$node buildScript\srcServer.js
-
+- $npm install -g localtunnel
+- $node buildScript\srcServer.js
 
 open new command prompt and start localtunnel
-$it --port 3000 //todo: fix the issue (curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
-sudo apt-get install -y nodejs)
+- $it --port 3000 //todo: fix the issue 
 
 ##Automation
+tools: Grunt, Gulp, nmp scripts
+-Automate with npm scripts

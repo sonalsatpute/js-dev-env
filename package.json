@@ -4,7 +4,8 @@
   "description": "Larning JavaScript development environment",
   "scripts": {
     "prestart": "node buildScripts/startMessage.js",
-    "start": "node buildScripts/srcServer.js"
+    "start": "node buildScripts/srcServer.js",
+    "security-check" : "nps check"
   },
   "author": "Sonal Satpute",
   "license": "MIT",

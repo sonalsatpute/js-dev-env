@@ -34,3 +34,6 @@ add below key in scripts section in package.json
 
 Open command prompt and type 
 - $npm start 
+
+Security Check
+- $npm run security-check

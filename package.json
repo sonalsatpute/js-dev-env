@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Larning JavaScript development environment",
   "scripts": {
+    "start": "node buildScripts/srcServer.js"
   },
   "author": "Sonal Satpute",
   "license": "MIT",

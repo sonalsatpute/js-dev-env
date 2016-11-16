@@ -28,3 +28,9 @@ open new command prompt and start localtunnel
 ##Automation
 tools: Grunt, Gulp, nmp scripts
 -Automate with npm scripts
+
+add below key in scripts section in package.json
+* "start": "node buildScripts/srcServer.js"
+
+Open command prompt and type 
+- $npm start 

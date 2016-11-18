@@ -40,3 +40,13 @@ Security Check
 
 localtunnel command
 - $npm run share
+
+Runner multiple task in parallel
+
+in case you get error saying npm-run-all not found please install 
+- $npm install npm-run-all
+
+- $npm start
+
+## Transpiling with Babel
+

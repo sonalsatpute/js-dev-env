@@ -4,9 +4,9 @@
   "description": "Larning JavaScript development environment",
   "scripts": {
     "prestart": "babel-node buildScripts/startMessage.js",
-    "start": "npm-run-all --parallel sercuity-check open:src",
+    "start": "npm-run-all --parallel security-check open:src",
     "open:src": "node buildScripts/srcServer.js",
-    "security-check" : "nsp check",
+    "security-check": "nsp check",
     "localtunnel": "Lt --port 3000",
     "share": "npm-run-all --parallel open:src localtunnel"
   },
@@ -45,6 +45,7 @@
     "open": "0.0.5",
     "rimraf": "2.5.4",
     "style-loader": "0.13.1",
+    "surge": "0.18.0",
     "webpack": "1.13.2",
     "webpack-dev-middleware": "1.8.4",
     "webpack-hot-middleware": "2.13.0",

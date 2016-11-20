@@ -6,8 +6,9 @@
     "prestart": "babel-node buildScripts/startMessage.js",
     "start": "npm-run-all --parallel security-check open:src",
     "open:src": "babel-node buildScripts/srcServer.js",
+    "lint" : "esw webpack.config.*, src, buildScripts --color",
     "security-check": "nsp check",
-    "localtunnel": "Lt --port 3000",
+    "localtunnel": "lt --port 3000",
     "share": "npm-run-all --parallel open:src localtunnel"
   },
   "author": "Sonal Satpute",

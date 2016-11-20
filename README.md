@@ -1,4 +1,5 @@
 # js-dev-env
+[![Travis Build Status](https://travis-ci.org/sonalsatpute/js-dev-env.svg?branch=master)](https://travis-ci.org/sonalsatpute/js-dev-env)
 
 package mangers: npm, bower, jspm, Jam, Volo
 

@@ -1,6 +1,10 @@
 # js-dev-env
 [![Travis Build Status](https://travis-ci.org/sonalsatpute/js-dev-env.svg?branch=master)](https://travis-ci.org/sonalsatpute/js-dev-env)
 
+
+[![Build status](https://ci.appveyor.com/api/projects/status/github/sonalsatpute/js-dev-env?svg=true)]
+(https://ci.appveyor.com/api/projects/status/github/sonalsatpute/js-dev-env)
+
 package mangers: npm, bower, jspm, Jam, Volo
 
 install node.js (6.9.1) 

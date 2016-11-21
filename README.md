@@ -1,7 +1,6 @@
 # js-dev-env
 [![Travis Build Status](https://travis-ci.org/sonalsatpute/js-dev-env.svg?branch=master)](https://travis-ci.org/sonalsatpute/js-dev-env)
 
-
 [![Build status](https://ci.appveyor.com/api/projects/status/github/sonalsatpute/js-dev-env?svg=true)]
 (https://ci.appveyor.com/api/projects/status/github/sonalsatpute/js-dev-env)
 
@@ -72,7 +71,7 @@
   * Jest (from facebook wraper over Jasmine)
 
 * Assertion Library 
-  * *Chai*
+  * ***Chai***
   * ShouldJS
   * Expect
 
@@ -120,8 +119,19 @@
 * Multiple Task Parallel Execusion
 
 * Http Calls
-* Mocking Http Calls
 
+* Polyfill.io : send Polyfill to those who need it.  
+
+* Mocking Http Calls
+  * Nock
+  * Static JSON
+  * Create development webserver
+    * api-mock
+    * ***JSON server***
+    * ***JSON schema fake***
+      * faker, chance, regexp
+    * Browserssync
+    * Express
 
 ## Commands
 

@@ -22,12 +22,12 @@
   * Grunt
   * Gulp
   *  ***nmp scripts***
-    ~~~~{
-        "scripts": 
-        {
-          "command-name" : "command"
-        }
-      }~~~~
+    {
+      "scripts": 
+      {
+        "command-name" : "command"
+      }
+    }
 
 * Security Check
   * $nsp check**

@@ -14,13 +14,14 @@ export default {
     publicPath: '/',
     filename: 'bundle.js'
   },
-  plugins: [
-    // Create HTML file that includes reference to bundled JS.
+  plugins: [    
+    // Create HTML file that incluides reference to bundle JS.
     new HtmlWebpackPlugin({
       template: 'src/index.html',
       inject: true
     })
   ],
+
   module: {
     loaders: [
       {test: /\.js$/, exclude: /node_modules/, loaders: ['babel']},

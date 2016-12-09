@@ -4,11 +4,11 @@ import getBaseUrl from  './baseUrl'
 const baseUrl = getBaseUrl();
 
 export function getUsers(){
-  return get('/users');
+  return get('users');
 }
 
 export function deleteUser(id){
-return del(`/users/${id}`);
+return del(`users/${id}`);
 }
 
 function get(url){
